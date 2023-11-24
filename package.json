@@ -2,7 +2,7 @@
   "name": "aoc",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/day02.js",
+  "main": "dist/day01.js",
   "type": "module",
   "scripts": {
     "build": "tsc",
@@ -16,8 +16,5 @@
   "devDependencies": {
     "@types/node": "^20.9.4",
     "typescript": "^5.3.2"
-  },
-  "dependencies": {
-    "fp-ts": "^2.16.1"
   }
 }
