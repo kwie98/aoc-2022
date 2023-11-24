@@ -2,7 +2,7 @@
   "name": "aoc",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/day01.js",
+  "main": "dist/day02.js",
   "type": "module",
   "scripts": {
     "build": "tsc",
