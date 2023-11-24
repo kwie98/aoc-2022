@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "pretty": true,
+        "module": "NodeNext", // Module system for the project
+        "moduleResolution": "NodeNext", // Probably should be same as above?
+        "target": "ES2020",
+        "sourceMap": true,
+        "outDir": "dist" // Where compiled javascript is put
+    },
+    // Where to find code:
+    "include": [
+        "src/**/*"
+    ]
+}
