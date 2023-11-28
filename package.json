@@ -2,7 +2,7 @@
   "name": "aoc",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/day01.js",
+  "main": "dist/day03.js",
   "type": "module",
   "scripts": {
     "build": "tsc",
@@ -15,6 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.9.4",
+    "ts-node": "^10.9.1",
     "typescript": "^5.3.2"
   }
 }
