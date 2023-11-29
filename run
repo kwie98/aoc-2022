@@ -1,0 +1,11 @@
+#!/bin/bash
+printf -v day "%02d" "$1" # crashes when $1 is not a number
+if test -f "src/day$day.ts"
+then
+    node --no-warnings --loader ts-node/esm src/day"$day".ts
+elif test -f "src/bin/day$day.rs"
+then
+    cargo run --quiet --bin day"$day"
+else
+    echo "Day $1 is not implemented"
+fi
